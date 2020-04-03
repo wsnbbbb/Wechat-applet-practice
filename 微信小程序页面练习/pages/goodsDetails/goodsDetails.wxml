@@ -1,0 +1,67 @@
+<view class="nav">
+  <view class="nav-box">
+    <image bindtap="back" class="jianntou" src="../../image/箭头.png"></image>
+    <view class="nav-title">Redmi Note 8 Pro</view>
+  </view>
+</view>
+<view class="nav box"></view>
+<view class="lunbo">
+  <swiper class="swiper" indicator-dots="true" indicator-color="white" indicator-active-color="#000000" circular='true'>
+    <swiper-item wx:for="{{lunboImg}}">
+      <image class="lunbo-img" src="{{item}}"></image>
+    </swiper-item>
+  </swiper>
+</view>
+<view class="goods-info">
+  <view class="goods-name2">Redmi Note 8 Pro</view>
+  <view class="goods-title">
+    <text class="goods-title-t">「6GB+128GB直降100元，到手价仅需1399元」</text> 6400万旗舰级全场景四摄 / 前置2000万 AI美颜相机 / G90T专业游戏芯片，液冷散热 / 6.53英寸水滴全面屏 / 4500mAh大电量 / 标配18W快充 / 康宁大猩猩保护玻璃 / 多功能NFC / 红外遥控功能 / Game Turbo2.0游戏加速
+  </view>
+  <view class="info-price">￥1399
+    <!-- <text class="qi"></text> -->
+    <text class="old-price">￥1599</text>
+  </view>
+</view>
+<view class="choose">
+  <view class="choose-goods">已选
+    <text class="choose-goods-name">Redmi Note 8 Pro 6GB+128GB 冰翡翠 x 1</text>
+    <text class="jiantou"> ></text>
+  </view>
+  <view class="address">
+    送至
+    <text class="choose-goods-name">成都市 武侯区</text>
+    <text class="jiantou"> ></text>
+  </view>
+  <view class="baozhang">
+    <view>
+      <image class="gou" src="../../image/小米自营.png"></image>
+      <text> 小米自营</text>
+    </view>
+    <view>
+      <image class="gou" src="../../image/小米自营.png"></image>
+      <text> 小米发货</text>
+    </view>
+    <view>
+      <image class="gou" src="../../image/小米自营.png"></image>
+      <text> 七天无理由退换</text>
+    </view>
+  </view>
+</view>
+<view>
+  <view class="tuijian">为您推荐</view>
+</view>
+<scroll-view enable-flex="{{true}}" scroll-left="{{true}}" scroll-x="{{true}}" class="scroll-view">
+  <view class="item" wx:for="{{scrollview}}">
+    <image class="scrollimg" src="{{item[0]}}"></image>
+    <view class="scroll-goods">{{item[1]}}</view>
+    <view class="scroll-goods-price">{{item[2]}}</view>
+  </view>
+</scroll-view>
+<image class="bottom-img" src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2dca7dc907e035469709e2da5184d0fb.jpg?f=webp&w=1080&h=1800&bg=0"></image>
+<image class="bottom-img" src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/aa3860eb27a9e6840f75dbd87389ab56.jpg?f=webp&w=1080&h=1666&bg=20202"></image>
+<view class="bottom-box box"></view>
+<view class="bottom-box">
+  <image class="gwcimg" src="../../image/购物车.png"></image>
+  <view bindtap="addgwc" class="addgwc">加入购物车</view>
+  <view class="addgwc">立即购买</view>
+</view>

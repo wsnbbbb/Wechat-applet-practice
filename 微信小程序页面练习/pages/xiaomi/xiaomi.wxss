@@ -1,0 +1,181 @@
+/* pages/xiaomi/xiaomi.wxss */
+@import "iconfont.wxss";
+.nav{
+  width: 750rpx;
+  height: 130rpx;
+  background-color: #fe6701;
+  display: flex;
+  align-items: center;
+  padding-top: 50rpx;
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10000;
+}
+.logo{
+  color:  #fe6701;
+  padding: 10rpx;
+  background-color: white;
+  margin-left: 30rpx;
+  border-radius: 5rpx;
+}
+.text{
+  color: white;
+  margin-left: 15rpx;
+}
+.input{
+  width: 300rpx;
+  height: 50rpx;
+  background-color: white;
+  border-radius: 25rpx;
+  margin-left: 30rpx;
+  line-height: 50rpx;
+  padding-left: 15rpx;
+  color: grey;
+  font-size: 30rpx;
+}
+.input::after{
+  content: "搜索商品";
+  font-size: 28rpx;
+  margin-left: 5rpx;
+}
+.box{
+  position: static;
+}
+.lunbobox{
+  position: relative;
+}
+.swiper{
+  height: 375rpx;
+}
+
+.dianbox{
+  position: absolute;
+  right: 40rpx;
+  bottom: 30rpx;
+  width:80rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.dian{
+  width: 15rpx;
+  height: 15rpx;
+  border-radius: 50%;
+  background-color: black;
+}
+.dianchange{
+   background-color: white;
+}
+.lunbo-img {
+    width: 100%;
+    height: 375rpx
+}
+.sort {
+    display: flex;
+    flex-wrap: wrap;
+}
+.sort image {
+    width: 150rpx;
+    height: 158.3334rpx;
+} 
+.goods {
+    background-color: #ccc;
+    width: 750rpx;
+    box-sizing: border-box;
+    padding: 20rpx;
+}
+.goods-inner {
+  border-radius: 10rpx;
+	background-color: #fff;
+  position: relative;
+}
+.hot-title {
+    padding: 30rpx;
+    font-weight: bolder;
+    color: #666;
+}
+.hot-img {
+    width: 100%;
+}
+.goods-name{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+.goods-info {
+    padding: 25rpx;
+    line-height: 48rpx;
+}
+.info-text {
+    font-size: 24rpx;
+    color: #ccc;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+.info-price {
+    font-size: 28rpx;
+    color: #fe6701;
+}
+.hot-goods-box{
+  display: flex;
+  flex-wrap:wrap;
+}
+.hot-goods{
+  width: 50%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-bottom: none
+}
+.hot-goods>image{
+   width: 100%;
+}
+.old-price{
+  color: rgba(0,0,0,.54);
+  font-size: 20rpx;
+  text-decoration: line-through;
+}
+.qi{
+  font-size: 25rpx;
+  color: #fe6701;
+  padding-right: 10rpx;
+}
+.maybelike{
+  padding: 30rpx;
+    font-weight: bolder;
+    color: #666;
+}
+.like-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.like-goods{
+  width: 350rpx;
+  box-sizing: border-box;
+  border-radius: 10rpx;
+  background-color: white;
+  margin-bottom: 10rpx;
+}
+.like-goods>image{
+   width: 100%;
+}
+.more{
+  position: absolute;
+  top:30rpx;
+  right: 30rpx;
+  color: #ccb;
+  font-size: 25rpx;
+}
+.zaobao{
+  color: #ccb;
+  font-size: 25rpx;
+}
+.bottom-text{
+  padding-top: 30rpx;
+  font-size: 25rpx;
+  text-align: center;
+  color: #666;
+}

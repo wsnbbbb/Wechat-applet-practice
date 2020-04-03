@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/xiaomi/xiaomi",
+    "pages/goodsDetails/goodsDetails",
+    "pages/gwc/gwc"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "购物车",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true,
+    "backgroundTextStyle":"dark"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#fe6701",
+    "list": [
+      {
+        "pagePath": "pages/xiaomi/xiaomi",
+        "text": "首页",
+        "iconPath": "./image/shouye.png",
+        "selectedIconPath": "./image/shouye_selected.png"
+      },
+      {
+        "pagePath": "pages/xiaomi/xiaomi",
+        "text": "分类",
+        "iconPath": "./image/分类.png",
+        "selectedIconPath": "./image/分类1.png"
+      },
+      {
+        "pagePath": "pages/xiaomi/xiaomi",
+        "text": "发现",
+        "iconPath": "./image/发现.png",
+        "selectedIconPath": "./image/发现1.png"
+      },
+      {
+        "pagePath": "pages/gwc/gwc",
+        "text": "购物车",
+        "iconPath": "./image/购物车.png",
+        "selectedIconPath": "./image/购物车1.png"
+      },
+      {
+        "pagePath": "pages/xiaomi/xiaomi",
+        "text": "我的",
+        "iconPath": "./image/我 的.png",
+        "selectedIconPath": "./image/我 的1.png"
+      }
+    ]
+  }
+}

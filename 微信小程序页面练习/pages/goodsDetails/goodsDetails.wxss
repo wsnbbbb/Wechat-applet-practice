@@ -1,0 +1,173 @@
+/* pages/goodsDetails/goodsDetails.wxss */
+.nav{
+  width: 750rpx;
+  height: 80rpx;
+  background-color: white;
+  text-align: center;
+  padding-top: 50rpx;
+  line-height: 70rpx;
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  left: 0
+}
+.nav-box{
+  position: relative;
+}
+.jianntou{
+  position: absolute;
+  height: 40rpx;
+  width: 40rpx;
+  left: 30rpx;
+  top: 20rpx;
+}
+.box{
+  position: static;
+}
+.nav-title{
+  color: black;
+}
+.swiper{
+  height:  826rpx
+}
+.lunbo-img{
+  width: 100%;
+  height: 826rpx;
+}
+.lunbo{
+  position: relative;
+}
+.goods-info{
+  padding: 30rpx
+}
+.goods-name2{
+  font-size: 40rpx
+}
+.goods-title{
+  padding-top: 10rpx;
+  font-size: 25rpx;
+  color: rgba(0,0,0,.54);
+}
+.goods-title-t{
+  color: #ff4a00!important
+}
+.info-price {
+  padding-top: 10rpx;
+    font-size: 35rpx;
+    color: #fe6701;
+}
+.old-price{
+  color: rgba(0,0,0,.54);
+  font-size: 20rpx;
+  text-decoration: line-through;
+}
+.qi{
+  font-size: 25rpx;
+  color: #fe6701;
+  padding-right: 10rpx;
+}
+.choose{
+  padding: 30rpx;
+}
+.choose-goods{
+  color: rgba(0,0,0,.54);
+  font-size: 28rpx;
+  position: relative;
+}
+.choose-goods-name{
+   text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-left: 10rpx;
+    color: rgba(0,0,0,.87); 
+}
+.jiantou{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.address{
+  color: rgba(0,0,0,.54);
+  font-size: 28rpx;
+  position: relative;
+ margin-top: 30rpx;
+}
+.gou{
+  width: 20rpx;
+  height: 20rpx;
+}
+.baozhang{
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: nowrap;
+  color: rgba(0,0,0,.54);
+  font-size: 25rpx;
+  margin-top: 30rpx;
+}
+.scroll-view{
+  display: flex;
+  height: 254rpx;
+  margin-bottom: 70rpx;
+}
+.item{
+  height: 254rpx;
+  width: 170rpx;
+  margin-right: 20rpx;
+}
+.scrollimg{
+  height: 170rpx;
+  width: 170rpx;
+  border: 1px solid #ccc;
+  border-radius: 20rpx;
+}
+.scroll-goods{
+  font-size: 25rpx;
+  text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center
+}
+.scroll-goods-price{
+  font-size: 25rpx;
+  color: #fe6701;
+  text-align: center
+}
+.tuijian{
+  width: 600rpx;
+  height: 100rpx;
+  background-color: #e5e5e5;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 100rpx;
+  color: #fe6701;
+  border-radius: 20rpx;
+  margin-top: 70rpx;
+}
+.bottom-img{
+  width: 750rpx;
+  height: 1250rpx;
+}
+.bottom-box{
+  width: 100%;
+  height: 100rpx;
+  background-color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.gwcimg{
+  height:80rpx;
+  width: 80rpx;
+}
+.addgwc{
+  width: 325rpx;
+  height: 100%;
+  background-color: #fe6701;
+  text-align: center;
+  line-height: 100rpx;
+  color: white;
+  font-weight: bold;
+}

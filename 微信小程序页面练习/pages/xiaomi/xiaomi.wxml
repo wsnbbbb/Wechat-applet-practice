@@ -1,0 +1,79 @@
+<!--pages/xiaomi/xiaomi.wxml-->
+<view class="con">
+  <!-- 导航栏 -->
+  <view class="nav">
+    <view class="iconfont icon-xiaomi1 logo"></view>
+    <view class="iconfont icon-xiaomi text"></view>
+    <view class="iconfont icon-sousuo input"></view>
+  </view>
+  <!-- 空盒子 -->
+  <view class="nav box"></view>
+  <!-- 轮播图 -->
+  <view class="lunbobox">
+    <swiper bindchange="lunbo" autoplay="true" class="swiper" interval="2000" duration='1000' circular="true">
+      <swiper-item wx:for="{{imgarray}}">
+        <image class="lunbo-img" src="{{item}}"></image>
+      </swiper-item>
+    </swiper>
+    <!-- 轮播图小圆点 -->
+    <view class="dianbox" style="width:{{imgarray.length*20}}rpx">
+      <view wx:for="{{imgarray}}" class="dian  {{lunbo==index?'dianchange':''}}"></view>
+    </view>
+  </view>
+  <!-- 分类 -->
+  <view class="sort">
+    <image wx:for="{{sortimgAarray}}" src="{{item}}"></image>
+  </view>
+  <!-- 人气推荐 -->
+  <view class="goods">
+    <view class="goods-inner">
+      <view>
+        <view class="hot-title">人气推荐</view>
+        <image mode="widthFix" class="hot-img" src="../../image/hot-img.jpg"></image>
+        <view class="goods-info">
+          <view class="goods-name">红米 8A</view>
+          <view class="info-text">5000毫安传奇续航|高通骁龙8核处理器</view>
+          <view class="info-price">￥699</view>
+        </view>
+      </view>
+      <view class="hot-goods-box">
+        <view bindtap="goodsDetails" wx:for="{{hotGoods}}" class="hot-goods">
+          <image mode="widthFix" src="{{item[0]}}"></image>
+          <view class="goods-info">
+            <view class="goods-name">{{item[1]}}</view>
+            <view class="info-text">{{item[2]}}</view>
+            <view class="info-price">{{item[3]}}
+              <text class="qi">{{item[4]}}</text>
+              <text class="old-price">{{item[5]}}</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="maybelike">猜你喜欢</view>
+    <view class="like-content">
+      <view wx:for="{{maybelikeGoods}}" class="like-goods">
+        <image mode="widthFix" src="{{item[0]}}"></image>
+        <view class="goods-info">
+          <view class="goods-name">{{item[1]}}</view>
+          <view class="info-text">{{item[2]}}</view>
+          <view class="info-price">{{item[3]}}
+            <text class="qi">{{item[4]}}</text>
+            <text class="old-price">{{item[5]}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="goods-inner">
+      <view class="hot-title">商城早报</view>
+      <view class="more">更多内容 ></view>
+      <image mode="widthFix" class="hot-img" src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/067047e99bc9517e85bbc5d2d854779a.jpg?thumb=1&w=720&h=280"></image>
+      <view class="goods-info">
+        <view class="goods-name ">十二星座小米专属好物手册</view>
+        <view class="zaobao">1 天前</view>
+      </view>
+    </view>
+    <view class="bottom-text">始终坚持做“感动人心、价格厚道”的好产品</view>
+  </view>
+
+</view>

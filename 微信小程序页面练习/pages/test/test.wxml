@@ -1,0 +1,38 @@
+<!--pages/test/test.wxml-->
+<text class="text">我是文本组件</text>
+<view class="view" hover-class="box" hover-start-time="500" hover-stay-time="2000">1</view>
+	<!-- hover-stop-propagation: 设置为true可以阻止冒泡: 阻止祖先节点出现点击态 -->
+<view class="father" hover-class="myfather">
+    <view class="son" hover-class="myson" hover-stop-propagation="true"></view>
+</view>
+
+<image class="img" mode ="center"    src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2847744968,718366829&fm=26&gp=0.jpg"></image>
+
+<view>{{message}}</view>
+<view id="item{{id}}"></view>
+<image></image>
+
+<view>
+  <text bindtap="active" data-id="1" class="{{active==1?'active':''}}">首页</text>
+  <text bindtap="active" data-id="2" class="{{active==2?'active':''}}">个人中心</text>
+</view>
+<image></image>
+<scroll-view enable-flex="{{true}}" scroll-x="{{true}}" class="scroll-view">
+     <view bindtap="changeactive" data-id="{{index}}"class="{{active==index?'active':''}} item" wx:for="{{scrollArray}}">
+     {{item}}
+     </view>
+</scroll-view>
+<view hidden="{{active==index?flase:true}}" wx:for="{{scrollArray}}" class="content">{{item}}</view>
+
+<navigator url="../index/index" open-type="reLaunch">
+ <button>index页面</button>
+</navigator>
+
+<button bindtap="tiaozhuan">log页面</button>
+
+<audio controls="{{true}}" src="http://music.163.com/song/media/outer/url?id=25841337.mp3"></audio>
+
+<button bindtap="play">播放</button>
+<button bindtap="pause">暂停</button>
+
+<video src="http://video.699pic.com/videos/09/21/99/a_r9zj2K0fhSax1573092199_10s.mp4"></video>

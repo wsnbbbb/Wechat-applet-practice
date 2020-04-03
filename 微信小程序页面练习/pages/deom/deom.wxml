@@ -1,0 +1,115 @@
+<!--pages/deom/deom.wxml-->
+<button bindtap="getinfo">获取数据</button>
+
+<view class="hot-goods">
+  <image mode="widthFix" src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8025107813883a20d3f2d956ad80ea38.jpg?thumb=1&w=344&h=280"></image>
+  <view class="goods-info">
+    <view class="goods-name">Redmi Note 8</view>
+    <view class="info-text">千元4800万四摄</view>
+    <view class="info-price">￥999
+      <text class="qi">起</text>
+      <!-- <text class="old-price">￥1399起</text> -->
+    </view>
+  </view>
+</view>
+<view class="hot-goods">
+  <image mode="widthFix" src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/baf1995a35e823c99e7c8ffd287d64ee.jpg?thumb=1&w=344&h=280"></image>
+  <view class="goods-info">
+    <view class="goods-name">小米9</view>
+    <view class="info-text">全息幻彩机身，骁龙855</view>
+    <view class="info-price">￥2699
+      <!-- <text class="qi">起</text> -->
+      <text class="old-price">￥3299</text>
+    </view>
+  </view>
+</view>
+<view class="hot-goods">
+  <image mode="widthFix" src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4c45bb8ab2c35e31910612acd2cb7f91.jpg?thumb=1&w=344&h=280"></image>
+  <view class="goods-info">
+    <view class="goods-name"></view>
+    <view class="info-text">5G双卡全网通，骁龙855Plus</view>
+    <view class="info-price">￥3699
+      <text class="qi">起</text>
+      <!-- <text class="old-price">￥1399起</text> -->
+    </view>
+  </view>
+</view>
+
+
+<view class="like-goods">
+  <image mode="widthFix" src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/549abe9d4dde71ac9e3fa87a4e13ec62.jpg?thumb=1&w=344&h=280"></image>
+  <view class="goods-info">
+    <view class="goods-name">黑鲨手机2 Pro</view>
+    <view class="info-text">骁龙855 Plus </view>
+    <view class="info-price">￥3299
+      <text class="qi">起</text>
+      <text class="old-price">￥3499</text>
+    </view>
+  </view>
+</view>
+<view class="like-goods">
+  <image mode="widthFix" src="https://i8.mifile.cn/v1/a1/82003442-c6b7-3258-cc7a-2a851216ce8a.webp"></image>
+  <view class="goods-info">
+    <view class="goods-name">小米电视4A 65英寸</view>
+    <view class="info-text">4K HDR，人工智能语音系统</view>
+    <view class="info-price">￥2599
+      <!-- <text class="qi">起</text> -->
+      <text class="old-price">￥2999</text>
+    </view>
+  </view>
+</view>
+<view class="like-goods">
+  <image mode="widthFix" src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/7cd59729b9a02407979848839c0e5343.jpg?thumb=1&w=344&h=280"></image>
+  <view class="goods-info">
+    <view class="goods-name">小米电视4X 43英寸</view>
+    <view class="info-text">FHD全高清屏，人工智能语音</view>
+    <view class="info-price">￥1199
+      <!-- <text class="qi">起</text> -->
+      <text class="old-price">￥1499</text>
+    </view>
+  </view>
+</view>
+<view class="like-goods">
+  <image mode="widthFix" src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/67af8c5df281feb89083c94a69ad4e23.jpg?thumb=1&w=344&h=280"></image>
+  <view class="goods-info">
+    <view class="goods-name">RedmiBook 14 增强版</view>
+    <view class="info-text">十代酷睿更强劲</view>
+    <view class="info-price">￥3999
+      <text class="qi">起</text>
+      <!-- <text class="old-price">￥1399起</text> -->
+    </view>
+  </view>
+</view>
+<view class="like-goods">
+  <image mode="widthFix" src="https://i8.mifile.cn/v1/a1/c585ed38-bee4-2f3c-c413-a1af154a74b3.webp"></image>
+  <view class="goods-info">
+    <view class="goods-name">空调（1.5匹/一级能效）</view>
+    <view class="info-text">变频节能，高效制冷热</view>
+    <view class="info-price">￥2399
+      <!-- <text class="qi">起</text> -->
+      <text class="old-price">￥2699</text>
+    </view>
+  </view>
+</view>
+<view class="like-goods">
+  <image mode="widthFix" src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/552e42b8706ee8d0bd3e048d2a5c4316.jpg?thumb=1&w=360&h=360"></image>
+  <view class="goods-info">
+    <view class="goods-name">米家洗烘一体机Pro</view>
+    <view class="info-text">智能洗烘，省心省力</view>
+    <view class="info-price">￥2999
+      <!-- <text class="qi">起</text>
+            <text class="old-price">￥1399起</text> -->
+    </view>
+  </view>
+</view>
+<view class="like-goods">
+  <image mode="widthFix" src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c33f008a86c151a1500d44d599351256.jpg?thumb=1&w=360&h=360"></image>
+  <view class="goods-info">
+    <view class="goods-name">小爱音箱万能遥控版</view>
+    <view class="info-text">传统家电秒变智能</view>
+    <view class="info-price">￥149
+      <!-- <text class="qi">起</text> -->
+      <text class="old-price">￥199</text>
+    </view>
+  </view>
+</view>

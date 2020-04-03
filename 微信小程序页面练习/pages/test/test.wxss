@@ -1,0 +1,58 @@
+/* pages/test/test.wxss */
+.text{
+  color: red;
+  font-size: 30px;
+}
+.view{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+.box{
+  font-size: 40px;
+  color: wheat;
+  background-color: black;
+}
+.father{
+  width: 300px;
+  height: 300px;
+  background-color: #312;
+}
+.son{
+  width: 200px;
+  height: 200px;
+  background-color: #899;
+}
+.myson{
+  background-color: black;
+}
+.myfather{
+  background-color: red;
+}
+.img{
+  width: 200px;
+  height: 200px
+}
+#item0{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+.active{
+  color: red;
+}
+
+.scroll-view{
+  display: flex;
+  height: 50rpx;
+}
+.item{
+  width: 150rpx;
+  height: 50rpx;
+  flex-shrink: 0;
+}
+.content{
+  width: 100%;
+  height: 500rpx;
+  background-color: blue;
+}
